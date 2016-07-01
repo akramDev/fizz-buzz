@@ -25,4 +25,4 @@ build:
     - script:
         name: echo
         code: |
-          mvn test
+          echo "test"
