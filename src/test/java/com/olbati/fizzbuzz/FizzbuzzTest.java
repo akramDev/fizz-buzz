@@ -14,7 +14,7 @@ public class FizzbuzzTest {
 
     @Test
     public void should_return_same_when_input_is_not_divisible_by_3_nor_by_5() {
-        assertThat(fizzbuzz.perfom(1)).isEqualTo("1");
+        assertThat(fizzbuzz.perfom(1)).isEqualTo("1000");
         assertThat(fizzbuzz.perfom(2)).isEqualTo("2");
         assertThat(fizzbuzz.perfom(4)).isEqualTo("4");
         assertThat(fizzbuzz.perfom(101)).isEqualTo("101");
